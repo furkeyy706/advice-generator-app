@@ -1,0 +1,43 @@
+.full-height {
+  height: 100vh;
+}
+
+.adviceButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.adviceButton svg {
+  fill: #202733;
+}
+
+.main-container {
+  background: hsl(218, 23%, 16%);
+}
+
+.card-container {
+  background: hsl(217, 19%, 24%);
+}
+
+.Header {
+  color: hsl(217, 19%, 38%);
+  text-align: center;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.advice-text {
+  color: hsl(193, 38%, 86%);
+}
